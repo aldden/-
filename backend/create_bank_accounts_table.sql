@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS bank_accounts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    bank_name VARCHAR(100) NOT NULL,
-    account_name VARCHAR(150) NOT NULL,
-    account_number VARCHAR(100) NOT NULL,
-    logo_url VARCHAR(255) DEFAULT '',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
